@@ -5,6 +5,10 @@ $(document).ready(function () {
     //window.resize=position();
     $(window).on("load", function () {
         position();
+
+        console.log("12312321")
+
+
         window.onscroll = function load() {
             var data =  [{"src": "1.jpg"}, {"src": "2.jpg"}, {"src": "3.jpg"}, {"src": "4.jpg"}, {"src": "5.jpg"}];
             if (slidescroll()) {
