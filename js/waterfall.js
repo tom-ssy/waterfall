@@ -4,10 +4,6 @@
 $(document).ready(function () {
     //window.resize=position();
     console.log(11);
-
-
-
-
     $(window).on("load", function () {
         position();
         window.onscroll = function load() {
